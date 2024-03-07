@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang=en>
+
+<head>
+  <meta charset=UTF-8>
+  <meta name=viewport content="width=device-width,initial-scale=1">
+  <link rel=stylesheet href=css/bootstrap.min.css>
+  <link rel=stylesheet href=css/style.css>
+  <link rel="shortcut icon" href="images/Orange Logo.png" type=image/x-icon>
+  <title>Verification Rules</title>
+</head>
+
+<body>
+  <header class="bg-black d-flex justify-content-between">
+    <picture>
+      <img width=150px height=100px src="images/Orange Logo.png" alt=Logo>
+    </picture>
+    <p class="text-light d-flex align-items-end pe-3">
+      Made By : Mohamed ElFawy & TL.Samer & SPV.Shady Mohy
+    </p>
+  </header>
+  <nav>
+    <h1 class="d-flex justify-content-center text-light pt-5">
+      <p class=text-start>Verification Rules</p>
+    </h1>
+    <ul class="d-flex text-decoration-none w-100 justify-content-end pb-2">
+      <li><a href=VerificationGuide.html>Verification Guide</a></li>
+    </ul>
+  </nav>
+  <main>
+    <form class="form-inline d-flex justify-content-around mx-2 mb-3 position-sticky">
+      <input class="form-control mr-sm-2 my-2 d-inline" type=search id=myInput onkeyup=myFunction()
+        placeholder="Search By Requested Action" aria-label=Search onkeyup=performSearch() id=searchInput>
+    </form>
+    <table id=myTable class=text-center>
+      <thead class="position-sticky top-0">
+        <tr>
+          <th>Requested Action</th>
+          <th>Phone Provisioning</th>
+          <th>Registered CP dial</th>
+          <th>Registered e-mail</th>
+          <th>Fax</th>
+          <th>AM/AA</th>
+          <th>E-Bill/U-Control</th>
+          <th>Orange Shops</th>
+        </tr>
+      </thead>
+      <tbody class=bg-light>
+        <tr>
+          <td>Emergency SIM</td>
+          <td>Yes</td>
+          <td>No</td>
+          <td>Yes</td>
+          <td>No</td>
+          <td>Yes</td>
+          <td>N/A</td>
+          <td>CP Only</td>
+        </tr>
+        <tr>
+          <td>Change SIM for the CP dial</td>
+          <td>No</td>
+          <td>No</td>
+          <td>No</td>
+          <td>No</td>
+          <td>Yes</td>
+          <td>Yes</td>
+          <td>CP Only</td>
+        </tr>
+        <tr>
+          <td>Add user name</td>
+          <td>Yes</td>
+          <td>No</td>
+          <td>Yes</td>
+          <td>No</td>
+          <td>Yes</td>
+          <td>N/A</td>
+          <td>
+            CP OR user with delegation letter signed by the CP signature
+          </td>
+        </tr>
+        <tr>
+          <td>Add user name for CP dial</td>
+          <td>No</td>
+          <td>No</td>
+          <td>Yes</td>
+          <td>No</td>
+          <td>Yes</td>
+          <td>N/A</td>
+          <td>
+            Yes ( with the new dial's data and copy from the new user's ID)
+          </td>
+        </tr>
+        <tr>
+          <td>Send Breakdown</td>
+          <td>Yes</td>
+          <td>No</td>
+          <td>Yes</td>
+          <td>No</td>
+          <td>Yes</td>
+          <td>E-Bill</td>
+          <td>CP Only</td>
+        </tr>
+        <tr>
+          <td>Add/change CP</td>
+          <td>No</td>
+          <td>No</td>
+          <td>No</td>
+          <td>No</td>
+          <td>Yes (official documents required)</td>
+          <td>N/A</td>
+          <td>Yes (officail documents required ​</td>
+        </tr>
+        <tr>
+          <td>SIM delegation</td>
+          <td>Yes</td>
+          <td>Yes</td>
+          <td>Yes</td>
+          <td>Yes</td>
+          <td>Yes</td>
+          <td>U-Control</td>
+          <td>
+            CP OR user with delegation letter signed by the CP signature
+          </td>
+        </tr>
+        <tr>
+          <td>Forms like PP & enterprise mail</td>
+          <td>No</td>
+          <td>No</td>
+          <td>Yes</td>
+          <td>No</td>
+          <td>Yes</td>
+          <td>N/A</td>
+          <td>CP Only</td>
+        </tr>
+        <tr>
+          <td>Activating On hold dials</td>
+          <td>Yes</td>
+          <td>No</td>
+          <td>Yes</td>
+          <td>No</td>
+          <td>Yes</td>
+          <td>N/A</td>
+          <td>CP Only</td>
+        </tr>
+        <tr>
+          <td>Change CP dial</td>
+          <td>No</td>
+          <td>No</td>
+          <td>Yes</td>
+          <td>No</td>
+          <td>Yes</td>
+          <td>No</td>
+          <td>CP Only</td>
+        </tr>
+        <tr>
+          <td>All points Actions</td>
+          <td>No</td>
+          <td>No</td>
+          <td>Yes</td>
+          <td>No</td>
+          <td>Yes</td>
+          <td>No</td>
+          <td>CP Only</td>
+        </tr>
+        <tr>
+          <td>Account details</td>
+          <td>No</td>
+          <td>No</td>
+          <td>Yes</td>
+          <td>No</td>
+          <td>Yes</td>
+          <td>No</td>
+          <td>CP Only</td>
+        </tr>
+        <tr>
+          <td>U-Control</td>
+          <td>Yes</td>
+          <td>No</td>
+          <td>Yes</td>
+          <td>No</td>
+          <td>Yes</td>
+          <td>No</td>
+          <td>
+            CP ONLY (after checking no change CP data in the last 48hrs)
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </main>
+  <script src=javascript/main.js></script>
+</body>
+</html>

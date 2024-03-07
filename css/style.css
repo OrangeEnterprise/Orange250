@@ -1,0 +1,51 @@
+body,
+thead {
+  background-color: #ff8c00;
+}
+a,
+td,
+th {
+  padding: 0.5rem;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+thead {
+  text-transform: capitalize;
+}
+td {
+  border-bottom: 3px solid #000;
+}
+#myTable tbody tr:hover,
+#myTable tr.header {
+  background-color: #ccc;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  background-color: #f0f8ff;
+  color: #000;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  margin-right: 0.5rem;
+}
+li:hover a,
+thead tr {
+  background-color: #000;
+  color: #fff;
+}
+p a {
+  border: 0;
+  background: 0 0;
+}

@@ -1,0 +1,2256 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="shortcut icon"
+      href="images/Orange Logo.png"
+      type="image/x-icon"
+    />
+    <title>Verification Guide</title>
+  </head>
+  <body>
+    <header class="bg-black d-flex justify-content-between">
+      <picture>
+        <img
+          width="150px"
+          height="100px"
+          src="images/Orange Logo.png"
+          alt="Logo"
+        />
+      </picture>
+      <p class="text-light d-flex align-items-end pe-3">
+        Made By : Mohamed ElFawy & TL.Samer & SPV.Shady Mohy
+      </p>
+    </header>
+    <nav>
+      <h1 class="d-flex justify-content-center text-light pt-5">
+        <p class="text-start">Verification Guide</p>
+      </h1>
+      <ul class="d-flex text-decoration-none w-100 justify-content-end pb-2">
+        <li><a href="VerificationRules.html">Verification Rules</a></li>
+      </ul>
+    </nav>
+    <main>
+      <form
+        class="form-inline d-flex justify-content-around mx-2 mb-3 position-sticky"
+      >
+        <input
+          class="form-control mr-sm-2 my-2 d-inline"
+          type="search"
+          id="myInput"
+          onkeyup="myFunction()"
+          placeholder="Search By Request"
+          aria-label="Search"
+          onkeyup="performSearch()"
+          id="searchInput"
+        />
+      </form>
+      <table id="myTable" class="text-center bg-light">
+        <thead class="position-sticky top-0">
+          <tr>
+            <th>Request</th>
+            <th>Shop</th>
+            <th>sales</th>
+            <th>E-mail</th>
+            <th>Phone prov (Password )</th>
+            <th>CP's personal Data (Name &amp; ID for CP )</th>
+            <th>Co's name / user's data(Company Name )</th>
+            <th>More Details &amp; service request</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1 in 2 SIM</td>
+            <td>Yes</td>
+            <td>No</td>
+            <td>No</td>
+            <td>Yes</td>
+            <td>No</td>
+            <td>No</td>
+            <td>Create SR 41216 Fill Smart Script</td>
+          </tr>
+          <tr>
+            <td>Adding / Deleting /Changing CP</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>No</td>
+            <td>No</td>
+            <td>No</td>
+            <td>No</td>
+            <td>
+              CP needs to refer back to sales or shops and franchises with the
+              official documents
+            </td>
+          </tr>
+          <tr>
+            <td>Adding GPRS for Call &amp; Control Users</td>
+            <td>No</td>
+            <td>No</td>
+            <td>No</td>
+            <td>No</td>
+            <td>No</td>
+            <td>No</td>
+            <td>
+              GPRS is default service for C&amp;C and it should be added as
+              corrective action
+            </td>
+          </tr>
+          <tr>
+            <td>Bill amount for dial incase 400 is down (For End users)</td>
+            <td>Yes</td>
+            <td>No</td>
+            <td>No</td>
+            <td>No</td>
+            <td>No</td>
+            <td>Yes</td>
+            <td>
+              In case CP insisted to know the dials bill amount (as a CP asking
+              about his account dials) we will offer sending him breakdown as
+              next step action after verification but will not inform him with
+              the dials' bill within the call except if calling as an end user
+              asking about his own dial then we will give it to him
+            </td>
+          </tr>
+          <tr>
+            <td>Bill amount for the main account</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>No</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>BM still active after the bill cycle</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Budget Master(Delete\Increase\Decrease)</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>No</td>
+            <td>No</td>
+            <td>service stopped for newly activated dials</td>
+          </tr>
+          <tr>
+            <td>C&amp;C to Standard</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>No</td>
+            <td>No</td>
+            <td>No</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Call Barring service</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>No</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>CD bill</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>No</td>
+            <td>To know the password of the CD</td>
+          </tr>
+          <tr>
+            <td>Change address for (Micro/SE/ME) accounts</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>No</td>
+            <td>No</td>
+            <td>
+              For new accounts: the first bill must be issued, delivered and
+              paid to be able to change the address.For the existing accounts:
+              previous bills must be delivered to the right/existing
+              address,Only one open bill whether current or due one.
+            </td>
+          </tr>
+          <tr>
+            <td>Change address for Large &amp; Key accounts</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>No</td>
+            <td>No</td>
+            <td>No</td>
+            <td>New address \ the CP name \ CP dial</td>
+          </tr>
+          <tr>
+            <td>Change Bill cycle</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>No</td>
+            <td>No</td>
+            <td>No</td>
+            <td>not allowed for C&amp;C dials</td>
+          </tr>
+          <tr>
+            <td>Change bill data</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>No</td>
+            <td>No</td>
+            <td>No</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Change dial</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>No</td>
+            <td>No</td>
+            <td>No</td>
+            <td>No</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Clip+ \ Clip plus 2 (With monthly fees only)</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>No</td>
+            <td>service stopped for newly activated dials</td>
+          </tr>
+          <tr>
+            <td>Clip+ \Clip + 2 (Free)</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Conference (Free)</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Conference (With monthly fees only)</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>No</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>CUG service</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>No</td>
+            <td>No</td>
+            <td>
+              Maximum 10 dials/day via 250
+              http://myintraupapp/teamsites/customerService/functions/250
+              Enterprise Call Center/Enterprise Departmental Guide/1. Handling
+              Rules/Enterprise On Hold Line Activation Via 25 and
+              PA/Pages/default.aspx
+            </td>
+          </tr>
+          <tr>
+            <td>Detailed bills</td>
+            <td>No</td>
+            <td>No</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>No</td>
+            <td>No</td>
+            <td>
+              Need CP address or fax no. or registered email \ CP name \ CP dial
+              no.\ period of the bill \ that he was able to pay the amount of
+              the detailed bill 20 letax exclusive(If Fax or Mail). Can request
+              it Via Phone Provisioning (Only after filling new Phone
+              Proviosioning Form) NB : IUC only can request it through shop SLA
+              48 h
+            </td>
+          </tr>
+          <tr>
+            <td>Fax &amp; Data</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>No</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>FS complaint</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>No</td>
+            <td>
+              need CP name \ CP dial &amp; the date of the bill on the main
+              account
+            </td>
+          </tr>
+          <tr>
+            <td>GPRS for Post Paid lines</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>No</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Inquiring about his/her Data bucket remaining units</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>International &amp; Roaming</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Migration (From Corporate to Personal)</td>
+            <td>Yes</td>
+            <td>No</td>
+            <td>No</td>
+            <td>No</td>
+            <td>No</td>
+            <td>No</td>
+            <td>
+              corp. to flat or Alo” &amp; Vise verse. the user must have
+              delegation letter with his name \ id no. and signed from the CP
+              (the signature which saved on the Siebel) .
+            </td>
+          </tr>
+          <tr>
+            <td>OCC complaint</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>No</td>
+            <td>Need CP name \ CP dial &amp; the description of the problem</td>
+          </tr>
+          <tr>
+            <td>Points redemption for end Users</td>
+            <td>Yes..User's personal data (Name. ID, DOB</td>
+            <td>User's personal data (Name. ID, DOB)</td>
+            <td>User's personal data (Name. ID, DOB)</td>
+            <td>User's personal data (Name. ID, DOB)</td>
+            <td>User's personal data (Name. ID, DOB)</td>
+            <td>User's personal data (Name. ID, DOB)</td>
+            <td>
+              Starting today 12/06/2016 , redemption requests “Intangible &amp;
+              tangible Gifts“ will be handled directly through 250 inbound team
+              and not to be sent to loyalty team.
+            </td>
+          </tr>
+          <tr>
+            <td>PUK 1&amp;2 Code</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>
+              Prepaid &amp; C&amp;C customers must be verified by company
+              name.Post Paid customer must be verified by full verification
+              (same as loyalty verification)NB: agent must advise the customer
+              to 400 &amp; #100# As for data line agent can provide the customer
+              with the PUK code via company name .
+            </td>
+          </tr>
+          <tr>
+            <td>Reinstatement \ Termination</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>No</td>
+            <td>No</td>
+            <td>No</td>
+            <td>
+              http://orangepedia/Promotions/Pages/Reinstatement-&amp;-Reallocation-for-orange-customers.aspx
+            </td>
+          </tr>
+          <tr>
+            <td>Reseting #100# and E-topup passwords.</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Resetting 900 IVR</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>
+              Starting 13/09/2017, 900 IVR reset password action will not be
+              taken through customer care agents as it will be available through
+              the IVR
+            </td>
+          </tr>
+          <tr>
+            <td>Roaming Data Buckets for C&amp;C and Postpaid (bill)</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>No</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Roaming Offer</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>
+              can be added for the user in case the roaming is active Note :memo
+              should be added on the cotract level on IX
+            </td>
+          </tr>
+          <tr>
+            <td>Suspension \ Release (More than 10 Dials)</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>No</td>
+            <td>
+              Customer requested 5 dials action will be implemented during the
+              call from 1st line.Customer requested from 5 till 15 dials to be
+              sent to the assist team. Assist inbox: 250 Enterprise Assist 1 H
+              Customer requested more than 15 dials advise the CP to send fax or
+              e-mail.For suspension and release , cp must be calling from the
+              registered dial.
+            </td>
+          </tr>
+          <tr>
+            <td>Suspension of the line in case of lost or stolen</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>
+              The callers data must be added to the comment (Name, ID # &amp;
+              the he/ she is calling from)
+            </td>
+          </tr>
+          <tr>
+            <td>Suspension\ release (Less than 10 dials)</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>No</td>
+            <td>
+              For suspension and release, CP must be calling from the registered
+              dial
+            </td>
+          </tr>
+          <tr>
+            <td>Change Tariff</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>No</td>
+            <td>No</td>
+            <td>Maximum 10 dials/day via phone provisioning only</td>
+          </tr>
+          <tr>
+            <td>
+              To know data about the account manger (name or no.) or the
+              account.
+            </td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>No</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Twin Line</td>
+            <td>No</td>
+            <td>No</td>
+            <td>No</td>
+            <td>No</td>
+            <td>No</td>
+            <td>No</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>U Control</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>No</td>
+            <td>No</td>
+            <td>cp must have an E bill account</td>
+          </tr>
+          <tr>
+            <td>Unlimited Data Bucket (Addition or Extension)</td>
+            <td>Yes</td>
+            <td>No</td>
+            <td>No</td>
+            <td>No</td>
+            <td>No</td>
+            <td>No</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Block Service</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>
+              Addition can be through 250,user must be calling from the same
+              dial. End user can add the service without referring to the CP ,
+              since the service is already available to all customers including
+              business ones through all channels (#100# / USSD / 505 IVR / 505
+              SMS).CP can add the service normally for postpaid dials.
+            </td>
+          </tr>
+          <tr>
+            <td>Black Berry Tiers for Prepaid &amp; C&amp;C</td>
+            <td>No</td>
+            <td>No</td>
+            <td>No</td>
+            <td>No</td>
+            <td>No</td>
+            <td>No</td>
+            <td>through USSD code #100*4#</td>
+          </tr>
+          <tr>
+            <td>Black Berry Tiers for PostPaid</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>No</td>
+            <td>
+              whatever dial CP is calling from, even if not registered on IX
+            </td>
+          </tr>
+          <tr>
+            <td>Sending Bill Image For IUC</td>
+            <td>Yes</td>
+            <td>No</td>
+            <td>No</td>
+            <td>No</td>
+            <td>No</td>
+            <td>Yes</td>
+            <td>only bill image not breakdown</td>
+          </tr>
+          <tr>
+            <td>Points Transfer for User ( CP Request )</td>
+            <td>CP must send Fax/Mail</td>
+            <td>CP must send Fax/Mail</td>
+            <td>CP must send Fax/Mail</td>
+            <td>CP must send Fax/Mail</td>
+            <td>CP must send Fax/Mail</td>
+            <td>CP must send Fax/Mail</td>
+            <td>
+              § End-user can request to transfer points via 250 incase s/he
+              exceeded his points transfer limit
+            </td>
+          </tr>
+          <tr>
+            <td>Black Berry Complete</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>No</td>
+            <td>
+              whatever dial CP is calling from, even if not registered on IX
+            </td>
+          </tr>
+          <tr>
+            <td>Itemized Bill</td>
+            <td>No</td>
+            <td>No</td>
+            <td>Yes</td>
+            <td>No</td>
+            <td>No</td>
+            <td>No</td>
+            <td>Free Itemized bill on CD via Corporate sales</td>
+          </tr>
+          <tr>
+            <td>New lines</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>No</td>
+            <td>No</td>
+            <td>No</td>
+            <td>No</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Migration From Account to Account</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>No</td>
+            <td>No</td>
+            <td>No</td>
+            <td>Preferred agent only can migrate via phone provisioning</td>
+          </tr>
+          <tr>
+            <td>Transfer of Payments</td>
+            <td>No</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>No</td>
+            <td>No</td>
+            <td>No</td>
+            <td>transfer payment from account to another account or dial</td>
+          </tr>
+          <tr>
+            <td>The Group Service</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>No</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Dial Loyalty Points Inquiry</td>
+            <td>Yes</td>
+            <td>No</td>
+            <td>No</td>
+            <td>No</td>
+            <td>No</td>
+            <td>No</td>
+            <td>
+              USSD , 900 IVR &amp; Orange Portal . Agent can inform the roamer
+              Only with his points
+            </td>
+          </tr>
+          <tr>
+            <td>Dial Loyalty Points Inquiry (Data Line)</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>
+              No handling <span
+                style="
+                  font-weight: bold;
+                  color: #000000;
+                  font-family: 'HelveticaNeue-55';
+                  font-size: 11pt;
+                "
+                >for Special business market program inquiries “ G info, fault ,
+                Acc modification “in case customer contacting enterprise call
+                center from their </span
+              ><span
+                style="
+                  font-weight: bold;
+                  text-decoration: underline;
+                  color: #000000;
+                  font-family: 'HelveticaNeue-55';
+                  font-size: 11pt;
+                "
+                >personal lines/fixed/other operators / different account </span
+              ><span
+                style="
+                  font-weight: bold;
+                  color: #000000;
+                  font-family: 'HelveticaNeue-55';
+                  font-size: 11pt;
+                "
+                >other than that agent can handle customer inquiries normally
+                according to existing verification matrix.</span
+              >
+            </td>
+          </tr>
+          <tr>
+            <td>Checking dial number by SIM serial</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>No</td>
+            <td>
+              <br />
+              In case a customer got a SIM serial number and he asked about its
+              dial number , s/he should be routed to the CP .<br />
+              If the CP himself called asking about it , 250 agent will give it
+              to him / her after taking 3 verifications, after ensuring that the
+              SIM belongs to the CP’s account and not a different one<br />
+              As for Data lines, the dial number could be given to the user
+              without the need to route him / her to the CP
+            </td>
+          </tr>
+          <tr>
+            <td>Account Unbilled</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>No</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>International On Demand</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>No</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Orange Content</td>
+            <td>No</td>
+            <td>No</td>
+            <td>No</td>
+            <td>No</td>
+            <td>No</td>
+            <td>Yes</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>VOIP</td>
+            <td>No</td>
+            <td>No</td>
+            <td>No</td>
+            <td>No</td>
+            <td>No</td>
+            <td>Yes</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Time based data Buckets</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>No</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Shared pool of data</td>
+            <td>No</td>
+            <td>No</td>
+            <td>Yes</td>
+            <td>No</td>
+            <td>No</td>
+            <td>No</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Prepaid BB Complete service</td>
+            <td>No</td>
+            <td>No</td>
+            <td>No</td>
+            <td>No</td>
+            <td>No</td>
+            <td>No</td>
+            <td>USSD codes</td>
+          </tr>
+          <tr>
+            <td>Pay For Me</td>
+            <td>No</td>
+            <td>No</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>No</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Call tone deletion</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>
+              Call center agents can delete the call tone service to the
+              customer through the call tone tool in case customer’s
+              inquiry.&quot;End user must be calling from the same dial
+            </td>
+          </tr>
+          <tr>
+            <td>MyCopy Service</td>
+            <td>No</td>
+            <td>No</td>
+            <td>No</td>
+            <td>No</td>
+            <td>No</td>
+            <td>No</td>
+            <td>SMS to 4040</td>
+          </tr>
+          <tr>
+            <td>My Shop</td>
+            <td>No</td>
+            <td>No</td>
+            <td>No</td>
+            <td>No</td>
+            <td>No</td>
+            <td>No</td>
+            <td>
+              <a href="http://www.orange.com/" title=""
+                >http://www.orange.com/</a
+              >
+            </td>
+          </tr>
+          <tr>
+            <td>Orange Wi-Fi internet access</td>
+            <td>No</td>
+            <td>No</td>
+            <td>No</td>
+            <td>No</td>
+            <td>No</td>
+            <td>No</td>
+            <td>Scratch card</td>
+          </tr>
+          <tr>
+            <td>Orange Widgets</td>
+            <td>No</td>
+            <td>No</td>
+            <td>No</td>
+            <td>No</td>
+            <td>No</td>
+            <td>No</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Changing ownership - Corporate Market</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>No</td>
+            <td>No</td>
+            <td>No</td>
+            <td>No</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Corporate Call Tone</td>
+            <td>No</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>No</td>
+            <td>No</td>
+            <td>No</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Orange Ad Service phase</td>
+            <td>No</td>
+            <td>No</td>
+            <td>No</td>
+            <td>No</td>
+            <td>No</td>
+            <td>No</td>
+            <td>SMS to 5050</td>
+          </tr>
+          <tr>
+            <td>Info SMS Service</td>
+            <td>No</td>
+            <td>No</td>
+            <td>No</td>
+            <td>No</td>
+            <td>No</td>
+            <td>No</td>
+            <td>SMS to 1110</td>
+          </tr>
+          <tr>
+            <td>E-Clinic Service</td>
+            <td>No</td>
+            <td>Yes</td>
+            <td>No</td>
+            <td>No</td>
+            <td>No</td>
+            <td>No</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>IS-SMS</td>
+            <td>No</td>
+            <td>No</td>
+            <td>No</td>
+            <td>No</td>
+            <td>No</td>
+            <td>No</td>
+            <td>
+              <a href="http://www.orange.com/" title=""
+                >http://www.orange.com/</a
+              >
+            </td>
+          </tr>
+          <tr>
+            <td>CUG enhancement (Cross Segment)</td>
+            <td>No</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>No</td>
+            <td>No</td>
+            <td>
+              Availing free intercompany calls between all the company C&amp;C
+              ,Postpaid &amp; Prepaid dials with same community code
+            </td>
+          </tr>
+          <tr>
+            <td>Hold bill</td>
+            <td>No</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>No</td>
+            <td>No</td>
+            <td>No</td>
+            <td>IUC can request via normal verification</td>
+          </tr>
+          <tr>
+            <td>I-answer</td>
+            <td>No</td>
+            <td>No</td>
+            <td>No</td>
+            <td>No</td>
+            <td>No</td>
+            <td>No</td>
+            <td>
+              customer shoulde change the SIM to be able to use this service
+              with normal process
+            </td>
+          </tr>
+          <tr>
+            <td>IS-SMS Pull &quot;NEWS&quot;</td>
+            <td>No</td>
+            <td>No</td>
+            <td>No</td>
+            <td>No</td>
+            <td>No</td>
+            <td>No</td>
+            <td>SMS to 200</td>
+          </tr>
+          <tr>
+            <td>Bulk SMS service (SIM Based)/(Web Based)</td>
+            <td>Yes</td>
+            <td>No</td>
+            <td>No</td>
+            <td>No</td>
+            <td>No</td>
+            <td>No</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Check SIM Serial by Dial Number</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>
+               If the CP has the dial and calls to enquire about the SIM serial,
+              the rep can provide him with the dial after full verification and
+              ensuring that the SIM belongs to the CP’s account and not a
+              different one.
+            </td>
+          </tr>
+          <tr>
+            <td>Complete CP Data On IX</td>
+            <td>No</td>
+            <td>No</td>
+            <td>No</td>
+            <td>Yes</td>
+            <td>No</td>
+            <td>No</td>
+            <td>
+              In case the customer has phone provisioning &amp; his data on IX (
+              username-birthdate- ID ) is incomplete or incorrect , the agent
+              will verify the CP with his password &amp; complete the data
+            </td>
+          </tr>
+          <tr>
+            <td>Bar/ Unbar Credit Transfer</td>
+            <td>Yes</td>
+            <td>N/A</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>
+              In case the customer, requests to bar &amp;/or unbar the credit
+              transfer through USSD CSR will have to take the action from both
+              tools (e-top up and #100# tool).<br />
+              http://myapps/Customers/Products%20%20Services/Services/value%20added%20services/Pages/default.aspx?Type=vasdetails&amp;VASID=437
+            </td>
+          </tr>
+          <tr>
+            <td>Anti Bill Shoc- Limit Threshhold Modification</td>
+            <td>Yes</td>
+            <td>No</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>No</td>
+            <td>MBB/MI - Anti-Bill Shock Data Roaming Limit</td>
+          </tr>
+          <tr>
+            <td>Follow Me Service</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Bill Inquiry (Explanation) Account/Dial for CP/User</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>No</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Points Expiry Date Inquiry For Dials/Account</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>
+              • the customer S/He will be informed by the points’ expiry date
+              after verification (Normal Loyalty Verification name +birthdate
+              +ID #)<br />
+              • CP S/He will be informed by 10 dials by phone and if he needs
+              more than 10 dials he has to send Fax or mail .<br />
+              <br />
+              No handling for Special business market program inquiries “ G
+              info, fault , Acc modification “in case customer contacting
+              enterprise call center from their personal lines/fixed/other
+              operators / different account other than that agent can handle
+              customer inquiries normally according to existing verification
+              matrix.
+            </td>
+          </tr>
+          <tr>
+            <td>Black List Numbers (Block Tool)</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>
+              In case the user wants to know the numbers in his/her Blocker
+              service list “the black-listed numbers”, s/he must be calling from
+              same dial  &amp; the verification needed is Company name only.
+            </td>
+          </tr>
+          <tr>
+            <td>Giving CP Name</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>customer should be verified with the company name</td>
+          </tr>
+          <tr>
+            <td>Change The Bill Language through 250</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>No</td>
+            <td>
+              The CP can request to change the bill language through 250 call
+              center &amp; action will be done on the spot with the normal full
+              verification.-User's data will be used only in case of IUC lines
+              as they can change their bill language after referring to 250 with
+              full verification.
+            </td>
+          </tr>
+          <tr>
+            <td>Account number</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>No</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>IUC lines</td>
+            <td>Yes</td>
+            <td>No</td>
+            <td>No</td>
+            <td>No</td>
+            <td>No</td>
+            <td>yes User's data only</td>
+            <td>
+              IUC customer should be verified with full data (Name - ID -
+              Birthdate &amp; Address) in case of any requested action.<br />
+              <br />
+              Except for the below cases a letter from the CP shall be
+              requested:<br />
+              Porting out<br />
+              Termination<br />
+              Moving from one Enterprise account<br />
+              Migration from Enter. Market to post or pre-paid Market<br />
+              Change Ownership<br />
+              Reinstatement<br />
+              <br />
+              &nbsp;<br />
+              &nbsp;<br />
+              IUC handling
+              :http://myintranet/teamsites/customerService/functions/250%20Enterprise%20Call%20Center/Enterprise%20Departmental%20Guide/Handling
+            </td>
+          </tr>
+          <tr>
+            <td>Changing rate plan</td>
+            <td>No</td>
+            <td>No</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>No</td>
+            <td>No</td>
+            <td>
+              Related link:<br />
+              <br />
+              http://myintraupapp/teamsites/customerService/functions/250
+              Enterprise Call Center/Enterprise Departmental Guide/1. Handling
+              Rules/Contact Person Handling/Changing rate plan and
+              Tariff/Pages/default.aspx
+            </td>
+          </tr>
+          <tr>
+            <td>Enterprise Prepaid ( Add / Delete ) services</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>No</td>
+            <td>
+              In case a Prepaid dial user is calling 250 call center requesting
+              an add or delete service, with no defined company name on CRM
+              tools:<br />
+              o CS agent is to take 2 verifications :<br />
+              § Last 3 calls<br />
+              § Active VAS<br />
+              &nbsp;<br />
+              o Confirm the company name through the interlock code (in case the
+              customer is having CUG service).<br />
+              o Add / Delete the service to the user.<br />
+              o Direct the customer to the CP in order to register the data.<br />
+              o CP can contact the AM or visit the nearest shop for data
+              registration.
+            </td>
+          </tr>
+          <tr>
+            <td>Call details for Corp Prepaid</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>No</td>
+            <td>
+              • Customer must calls from the same line.<br />
+              • In case a Prepaid dial user is calling 250 call center
+              requesting call details &amp; they don’t know their CP name or
+              company name:<br />
+              o CS agent is to take 2 verifications :<br />
+              § Last 3 calls<br />
+              § Active VAS<br />
+              • In case a Prepaid dial user is calling 250 call center
+              requesting call details with no defined company name on CRM
+              tools:<br />
+              o CS agent is to take 3 verifications :<br />
+              § Account name<br />
+              § Last 3 calls<br />
+              § Active VAS<br />
+              • And in case the required call is within the last 3 calls, as an
+              alternative verification you can ask the CS to provide the last 3
+              calls before that call
+            </td>
+          </tr>
+          <tr>
+            <td>Paid Add-ons addtion for C&amp;C (On bill)</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>No</td>
+            <td>
+              In Case C&amp;C end user will add it from credit, has to call from
+              same dial to be verified with company name in order to add the
+              needed service /for the CP no need to be calling from same dial
+              but full verification (Name/birthdate/ID)/Phone provisioning
+              needed.
+            </td>
+          </tr>
+          <tr>
+            <td>International&amp;Roaming for C&amp;C dials</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>No</td>
+            <td>No</td>
+            <td>
+              Kindly be informed that starting 22/5/2013 (250/Preferred) agents
+              can add the I&amp;R for Corporate C&amp;C customers through phone
+              provisioning, with the same current eligibility rules;<br />
+              (250/Preferred) agents MUST confirm with the CP below:<br />
+              • S/He is committed to pay the amount that will be reflecting the
+              roaming charges on the monthly bill.
+            </td>
+          </tr>
+          <tr>
+            <td>Online data buckets for C&amp;C</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>End user must be calling from the same dial</td>
+          </tr>
+          <tr>
+            <td>Credit Limit of account</td>
+            <td>Yes with normal verifications</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>No</td>
+            <td>Normal verifications applied</td>
+          </tr>
+          <tr>
+            <td>Second line inquiry</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>
+              Corporate postpaid: Through CP only.<br />
+              <br />
+              Corporate C&amp;C and prepaid : Company name and the end user must
+              call from same line.
+            </td>
+          </tr>
+          <tr>
+            <td>P&amp;C deletion action ( payment responsible )</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>No</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Bill Cycle</td>
+            <td>No Verification needed</td>
+            <td>No Verification needed</td>
+            <td>No Verification needed</td>
+            <td>No Verification needed</td>
+            <td>No Verification needed</td>
+            <td>No Verification needed</td>
+            <td>For both CP &amp; End user</td>
+          </tr>
+          <tr>
+            <td>Active Services on the line</td>
+            <td>No Verification needed</td>
+            <td>No Verification needed</td>
+            <td>No Verification needed</td>
+            <td>No Verification needed</td>
+            <td>No Verification needed</td>
+            <td>No Verification needed</td>
+            <td>For both CP &amp; End user</td>
+          </tr>
+          <tr>
+            <td>Line Tariff</td>
+            <td>No Verification needed</td>
+            <td>No Verification needed</td>
+            <td>No Verification needed</td>
+            <td>No Verification needed</td>
+            <td>No Verification needed</td>
+            <td>No Verification needed</td>
+            <td>For both CP &amp; End user</td>
+          </tr>
+          <tr>
+            <td>Balance used for the Data Roaming Bucket</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>
+              customer asked about the balance used from his data roaming bucket
+            </td>
+          </tr>
+          <tr>
+            <td>Customer need to know the Line Activation Date</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>to be informed by Company name</td>
+          </tr>
+          <tr>
+            <td>
+              Customer inquiring about Bill explanation OR SD reason or
+              Involuntary Suspension reason
+            </td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>No</td>
+            <td>
+              <br />
+              Agent must direct End User to CP for below info<br />
+              - SD Reason<br />
+              - Involuntary/ Voluntary suspension Reason<br />
+              - Bill Explanation
+            </td>
+          </tr>
+          <tr>
+            <td>External Points Redemption Verification Cancelation Process</td>
+            <td>Yes</td>
+            <td>No</td>
+            <td>No, End User Data On CX</td>
+            <td>No, End User Data On CX</td>
+            <td>No, End User Data On CX</td>
+            <td>No, End User Data On CX</td>
+            <td>
+              Customer want to cancel SR for points redemption from external
+              partner<br />
+              To be verified with normal verification same as points
+              redemption.End User Data On CX calling from same dial.
+            </td>
+          </tr>
+          <tr>
+            <td>
+              Customer inquiring about the bill payments are registered or not
+            </td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>No</td>
+            <td>Customer inquiry about the bill payments registered or not</td>
+          </tr>
+          <tr>
+            <td>Customer request to delete Alerting Service</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>
+              In case customer wants to delete the alerting service or inquiring
+              how to delete it, agents should proceed with deleting the service
+              from the tool. i.e. customer don’t have to complaint that s/he
+              can’t delete the service in order for the agents to delete it,
+              service can be deleted upon customer request.<br />
+              Customer must call from his dial and verify him by Company name<br />
+              <br />
+              Scenario 1:<br />
+              Postpaid customer calling from same dial, agent will verify the
+              customer with Company name.<br />
+              <br />
+              Scenario 2:<br />
+              No verification needed for C&amp;C and prepaid, Customer must be
+              calling from the same dial.
+            </td>
+          </tr>
+          <tr>
+            <td>Release SD/Involuntary suspension</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>
+              In case CSR received call from CP or End user to release SD or
+              Involuntary suspension , there is no need to verify as long as the
+              amount is register
+            </td>
+          </tr>
+          <tr>
+            <td>Points Dispute Complaints</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>
+              <br />
+              If customer want to make Points Dispute Complaints it will be
+              handled normally for CP Or End user
+            </td>
+          </tr>
+          <tr>
+            <td>Change SIM for prepaid</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>
+              Any enterprise prepaid end user can proceed with changing his/her
+              SIM card without referring to the CP only in case s/he is fully
+              verified with the below and added on Siebel: • Name • ID number •
+              Company name • Tariff
+            </td>
+          </tr>
+          <tr>
+            <td>Any Corrective action</td>
+            <td>No</td>
+            <td>No</td>
+            <td>No</td>
+            <td>No</td>
+            <td>No</td>
+            <td>No</td>
+            <td>No Verifications needed</td>
+          </tr>
+          <tr>
+            <td>Payment plan agreements</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>No</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>No</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>I-control lines Transactions</td>
+            <td>Yes</td>
+            <td>No</td>
+            <td>No</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>No</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Call Details for Corporate C&amp;C</td>
+            <td>See More Details</td>
+            <td>See More Details</td>
+            <td>See More Details</td>
+            <td>See More Details</td>
+            <td>See More Details</td>
+            <td>See More Details</td>
+            <td>
+              250 agent can proceed with giving the masked calls to the customer
+              after ensuring the below:<br />
+              • Customer must call from the same dial.<br />
+              Starting from 17/12/2014 corporate call center agents can provide
+              the call details with maximum 10 days back.<br />
+              • CS agent will to take below verifications based on the case:<br />
+              o Account name (if found).<br />
+              o Last 3 calls.<br />
+              o Active VAS.<br />
+              &nbsp;<br />
+              • And in case the required call is within the last 3 calls, as an
+              alternative verification you can ask the CS to provide the last 3
+              calls before that call
+            </td>
+          </tr>
+          <tr>
+            <td>Credit balance</td>
+            <td>No</td>
+            <td>No</td>
+            <td>No</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>No</td>
+            <td>
+              250 agents can give the C&amp;C and Prepaid Credit balance over
+              the phone to the Contact persons only after full verification in
+              case of lost, stolen or 
+            </td>
+          </tr>
+          <tr>
+            <td>SMS Bill advice for Corporate End USer</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>No</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Roamer Dial unbilled</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>No</td>
+            <td>
+              To be communicated to the CP only in case the dial is a roamer
+            </td>
+          </tr>
+          <tr>
+            <td>Loyalty program joined Date</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>
+              The user must be calling from same dial to know his Joined date.
+            </td>
+          </tr>
+          <tr>
+            <td>Loyalty Program Tier</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>The user must be calling from Same dial.</td>
+          </tr>
+          <tr>
+            <td>Loyalty transaction Status</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>The user must be calling from the Same dial.</td>
+          </tr>
+          <tr>
+            <td>Fax or Mail Status</td>
+            <td>No verification needed</td>
+            <td>No verification needed</td>
+            <td>No verification needed</td>
+            <td>No verification needed</td>
+            <td>No verification needed</td>
+            <td>No verification needed</td>
+            <td>
+              Only in case the caller is asking whether the request is received
+              or not.
+            </td>
+          </tr>
+          <tr>
+            <td>Scratch card status</td>
+            <td>No verification needed</td>
+            <td>No verification needed</td>
+            <td>No verification needed</td>
+            <td>No verification needed</td>
+            <td>No verification needed</td>
+            <td>No verification needed</td>
+            <td>to check the scratch card status.</td>
+          </tr>
+          <tr>
+            <td>Scratch card status</td>
+            <td>No verification needed</td>
+            <td>No verification needed</td>
+            <td>No verification needed</td>
+            <td>No verification needed</td>
+            <td>No verification needed</td>
+            <td>No verification needed</td>
+            <td>
+              <br />
+              when the CS asked if the Card is used or not
+            </td>
+          </tr>
+          <tr>
+            <td>The Dial the scratch card is recharged on</td>
+            <td>Not to inform the CS</td>
+            <td>Not to inform the CS</td>
+            <td>Not to inform the CS</td>
+            <td>Not to inform the CS</td>
+            <td>Not to inform the CS</td>
+            <td>Not to inform the CS</td>
+            <td>
+              Not to inform customer with such Info. and rout him to Point of
+              sales where he purchased scratch card from
+            </td>
+          </tr>
+          <tr>
+            <td>SMS Bill Advice</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>No</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Credit transfer reciever dial</td>
+            <td>Same call details verifications</td>
+            <td>Same call details verifications</td>
+            <td>Same call details verifications</td>
+            <td>Same call details verifications</td>
+            <td>Same call details verifications</td>
+            <td>Same call details verifications</td>
+            <td>
+              CS must be calling from same dial to know the dial of the credit
+              transfer transaction.
+            </td>
+          </tr>
+          <tr>
+            <td>
+              In case the customer asked if his/her line was recycled or not
+            </td>
+            <td>Not to inform the CS</td>
+            <td>Not to inform the CS</td>
+            <td>Not to inform the CS</td>
+            <td>Not to inform the CS</td>
+            <td>Not to inform the CS</td>
+            <td>Not to inform the CS</td>
+            <td>
+              In case the customer asked if his/her line was recycled or not,
+              agents are not allowed to inform him/her
+            </td>
+          </tr>
+          <tr>
+            <td>Points Transfer for User</td>
+            <td>See More Details</td>
+            <td>See More Details</td>
+            <td>See More Details</td>
+            <td>See More Details</td>
+            <td>See More Details</td>
+            <td>Yes</td>
+            <td>
+              § End-user can request to transfer points without CP official
+              request as long as the customer accumulating on dial level and
+              have his/her verification on CX.§ End users accumulating on dial
+              level can transfer points to another dial within same account
+              ONLY.<br />
+              - End user must call CS from the same dial from which the points
+              will be transferred.<br />
+              - The SR will be created on the dial from which the points will be
+              transferred.<br />
+              <br />
+              No handling for Special business market program inquiries “ G
+              info, fault , Acc modification “in case customer contacting
+              enterprise call center from their personal lines/fixed/other
+              operators / different account other than that agent can handle
+              customer inquiries normally according to existing verification
+              matrix.
+            </td>
+          </tr>
+          <tr>
+            <td>Status Service ( Add/ Delete/ Change )</td>
+            <td>See More Details</td>
+            <td>See More Details</td>
+            <td>See More Details</td>
+            <td>See More Details</td>
+            <td>See More Details</td>
+            <td>Yes</td>
+            <td>
+              End User must be calling from the same dial &amp; the verification
+              needed is the Company name.
+            </td>
+          </tr>
+          <tr>
+            <td>
+              In case of credit deductible service addition for C&amp;C IUC
+              customers
+            </td>
+            <td>See More Details</td>
+            <td>See More Details</td>
+            <td>See More Details</td>
+            <td>See More Details</td>
+            <td>See More Details</td>
+            <td>Yes</td>
+            <td>Company name only ( any service added using credit )</td>
+          </tr>
+          <tr>
+            <td>Add/Change CP dial on CX</td>
+            <td>No</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>No</td>
+            <td>No</td>
+            <td>No</td>
+            <td>
+              <br />
+              In case the CP wanted to add/delete or change the Contact Personal
+              dial on CX
+            </td>
+          </tr>
+          <tr>
+            <td>Re-send loyalty Voucher SMS</td>
+            <td>User's personal data (Name. ID, DOB</td>
+            <td>User's personal data (Name. ID, DOB</td>
+            <td>User's personal data (Name. ID, DOB</td>
+            <td>User's personal data (Name. ID, DOB</td>
+            <td>User's personal data (Name. ID, DOB</td>
+            <td>User's personal data (Name. ID, DOB</td>
+            <td>End user must call from the same dial</td>
+          </tr>
+          <tr>
+            <td>Budget master limit</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>No Verification needed</td>
+            <td>No Verification needed</td>
+            <td>No Verification needed</td>
+            <td>For both CP &amp; End user</td>
+          </tr>
+          <tr>
+            <td>Remaining Installments</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>No</td>
+            <td>
+              End user should refer to the CP to know the Remaining amounts or
+              months
+            </td>
+          </tr>
+          <tr>
+            <td>
+              Modifying the provisioning of Blackberry Service ( BIS, BES, BES
+              Plus )
+            </td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>No</td>
+            <td>End user should refer to the CP</td>
+          </tr>
+          <tr>
+            <td>
+              Roaming Data Bucket remaining unites on Anti-Bill shock tool
+            </td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>OCC SRs feedback</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>No</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Tech SRs feedback</td>
+            <td>No verifications needed</td>
+            <td>No verifications needed</td>
+            <td>No verifications needed</td>
+            <td>No verifications needed</td>
+            <td>No verifications needed</td>
+            <td>No verifications needed</td>
+            <td>For any VAS SR</td>
+          </tr>
+          <tr>
+            <td>Spoc SRs feedback</td>
+            <td>No verifications needed</td>
+            <td>No verifications needed</td>
+            <td>No verifications needed</td>
+            <td>No verifications needed</td>
+            <td>No verifications needed</td>
+            <td>No verifications needed</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Activation SRs feedback</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>No</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Data SRs Feedback</td>
+            <td>No verifications needed</td>
+            <td>No verifications needed</td>
+            <td>No verifications needed</td>
+            <td>No verifications needed</td>
+            <td>No verifications needed</td>
+            <td>No verifications needed</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Save team&amp; MNP SRs feedback</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>No</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Credit SRs feedback</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>No</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>SR number for any of above if requested.</td>
+            <td>No verifications needed</td>
+            <td>No verifications needed</td>
+            <td>No verifications needed</td>
+            <td>No verifications needed</td>
+            <td>No verifications needed</td>
+            <td>No verifications needed</td>
+            <td>
+              Route the user to the CP in case asked about any SR number that
+              requires CP data
+            </td>
+          </tr>
+          <tr>
+            <td>Change #100# Language</td>
+            <td>No verifications needed</td>
+            <td>No verifications needed</td>
+            <td>No verifications needed</td>
+            <td>No verifications needed</td>
+            <td>No verifications needed</td>
+            <td>No verifications needed</td>
+            <td>
+              <br />
+              Must be calling from same dial
+            </td>
+          </tr>
+          <tr>
+            <td>Points Transactions through 900 IVR</td>
+            <td>No</td>
+            <td>No</td>
+            <td>No</td>
+            <td>No</td>
+            <td>No</td>
+            <td>Yes</td>
+            <td>
+              <br />
+              User must call from same dial &amp; verified with Loyalty
+              verifications to know any transaction done from his dial through
+              900 IVR Only.
+            </td>
+          </tr>
+          <tr>
+            <td>Points Transactions through 900 IVR</td>
+            <td>No</td>
+            <td>No</td>
+            <td>Yes</td>
+            <td>No</td>
+            <td>No</td>
+            <td>Yes</td>
+            <td>
+              User must call from same dial &amp; verified with Loyalty
+              verifications to know any transaction done from his dial through
+              900 IVR Only.<br />
+              <br />
+              No handling for Special business market program inquiries “ G
+              info, fault , Acc modification “in case customer contacting
+              enterprise call center from their personal lines/fixed/other
+              operators / different account other than that agent can handle
+              customer inquiries normally according to existing verification
+              matrix.
+            </td>
+          </tr>
+          <tr>
+            <td>My Office G. Info for VAS</td>
+            <td>No verifications needed</td>
+            <td>No verifications needed</td>
+            <td>No verifications needed</td>
+            <td>No verifications needed</td>
+            <td>No verifications needed</td>
+            <td>No verifications needed</td>
+            <td>Any CS can inquire about the service</td>
+          </tr>
+          <tr>
+            <td>My Office G. Info for billing</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>No</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>G.info for any contract Data</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>No</td>
+            <td>Related to the contract details with the AM</td>
+          </tr>
+          <tr>
+            <td>My Office Fault For VAS</td>
+            <td>No verifications needed</td>
+            <td>No verifications needed</td>
+            <td>No verifications needed</td>
+            <td>No verifications needed</td>
+            <td>No verifications needed</td>
+            <td>No verifications needed</td>
+            <td>After needed TRB/ SR to be sent to ECHT</td>
+          </tr>
+          <tr>
+            <td>My Office Fault For Billing</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>No</td>
+            <td>To be sent to the ECHT</td>
+          </tr>
+          <tr>
+            <td>My Office Fault for line activation</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>No</td>
+            <td>To be sent to the ECHT</td>
+          </tr>
+          <tr>
+            <td>My Office Any Acc. Modification</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>No</td>
+            <td>
+              Same as E-bill/ to be handled from the 1st line or sent to
+              activation team
+            </td>
+          </tr>
+          <tr>
+            <td>My Office Termination</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>No</td>
+            <td>No</td>
+            <td>No</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Any Kind Of Exception</td>
+            <td>N/A</td>
+            <td>N/A</td>
+            <td>N/A</td>
+            <td>N/A</td>
+            <td>N/A</td>
+            <td>N/A</td>
+            <td>
+              In case the CS requested to take any kind of exception, refer to
+              the Shift Leader not the Assist Team
+            </td>
+          </tr>
+          <tr>
+            <td>Life Cycle</td>
+            <td>No verifications needed</td>
+            <td>No verifications needed</td>
+            <td>No verifications needed</td>
+            <td>No verifications needed</td>
+            <td>No verifications needed</td>
+            <td>No verifications needed</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Delete Gameloft</td>
+            <td>See more details</td>
+            <td>See more details</td>
+            <td>See more details</td>
+            <td>See more details</td>
+            <td>See more details</td>
+            <td>Yes</td>
+            <td>
+              End User must be calling from the same dial &amp; the verification
+              needed is the Company name.
+            </td>
+          </tr>
+          <tr>
+            <td>Faxination SR Feedback</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>No</td>
+            <td>
+              In case the CP called to ask about any request in progress with
+              the faxination team.
+            </td>
+          </tr>
+          <tr>
+            <td>CP registered dial</td>
+            <td>See more details</td>
+            <td>See more details</td>
+            <td>See more details</td>
+            <td>See more details</td>
+            <td>See more details</td>
+            <td>See more details</td>
+            <td>
+              In case the CP requested to know his/her registered dial on CX,
+              the CP can tell you the dial number and you can answer with YES or
+              NO but it’s not allowed to inform him/her with the number.
+            </td>
+          </tr>
+          <tr>
+            <td>Request not found in the verification guide nor intra</td>
+            <td>See more details</td>
+            <td>See more details</td>
+            <td>See more details</td>
+            <td>See more details</td>
+            <td>See more details</td>
+            <td>See more details</td>
+            <td>
+              In case the CS is inquiring about something not found in the
+              verification guide nor intra, don’t inform him/her.
+            </td>
+          </tr>
+          <tr>
+            <td>Instant Compensation</td>
+            <td>See more details</td>
+            <td>See more details</td>
+            <td>See more details</td>
+            <td>See more details</td>
+            <td>See more details</td>
+            <td>Yes</td>
+            <td>End user must be calling from the same dial</td>
+          </tr>
+          <tr>
+            <td>Account Modification For Contract Data</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>No</td>
+            <td>No</td>
+            <td>No</td>
+            <td>
+              <br />
+              In case CP wants to change any of the contract data on main
+              account.
+            </td>
+          </tr>
+          <tr>
+            <td>Resetting 400 IVR</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>
+              CP or User must be calling from same dial &amp; verified with
+              company name.<br />
+              Belwo SR to be created on Siebel &amp; done by EAI<br />
+              &nbsp;<br />
+              Short Code: 11001<br />
+              Type: Acc Mod For Passwords Counters.<br />
+              Area: Reset.<br />
+              Sub area: Done / Not Done (Sub area will selected by EAI)<br />
+              Product: 400<br />
+              <br />
+              in case of Automation problem check:<br />
+              http://myintraupapp/teamsites/customerService/functions/250
+              Enterprise Call Center/Enterprise Departmental Guide/5. Enterprise
+              Call Guide/400 IVR Resetting Password handling/Pages/default.aspx
+            </td>
+          </tr>
+          <tr>
+            <td>
+              Change customer bill medium to corporate default bill medium
+              “Paper + CD”
+            </td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>No</td>
+            <td>
+              <br />
+              In case of normal verification, CP must be calling from his
+              registered dial on CX
+            </td>
+          </tr>
+          <tr>
+            <td>Block call tone</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>
+              End user must be calling from the same dial with company name
+            </td>
+          </tr>
+          <tr>
+            <td>
+              Voluntary Suspension For Enterprise End User Prepaid ( Add /
+              Delete )
+            </td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>Yes</td>
+            <td>No</td>
+            <td>
+              <br />
+              voluntary suspension verification through end user will be same as
+              adding/deleting services;<br />
+              • Account name<br />
+              • Last 3 calls<br />
+              • Active VAS<br />
+              In case a Prepaid dial user is calling 250 call center requesting
+              an add or delete service, with no defined company name on CRM
+              tools:<br />
+              o CS agent is to take 2 verifications :<br />
+              § Last 3 calls<br />
+              § Active VAS
+            </td>
+          </tr>
+          <tr>
+            <td>Resetting Office 4G location</td>
+            <td>No verifications needed</td>
+            <td>No verifications needed</td>
+            <td>No verifications needed</td>
+            <td>No verifications needed</td>
+            <td>No verifications needed</td>
+            <td>No verifications needed</td>
+            <td>
+              <br />
+              3 times per year from the first activation<br />
+              http://inforegcs.orange.eg/cck-clear-device-location.aspx
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </main>
+    <script src="javascript/main.js"></script>
+  </body>
+</html>
